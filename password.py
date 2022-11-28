@@ -17,10 +17,10 @@ os.system("clear")
 print(Fore.RED + "Warning: Make sure you save the password in a safe place")
 t.sleep(3)
 from update_check import isUpToDate, update
-if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/Password-Generator/main/password.py") == False:
+if isUpToDate(__file__,  "https://raw.githubusercontent.com/De-Technocrats/Password-Generator/main/password.py") == False:
     print(Fore.YELLOW+ "This version is outdated, will update the tool in a minute")
     t.sleep(3)
-    update("password.py",  "https://raw.githubusercontent.com/spider863644/Password-Generator/main/password.py")
+    update("password.py",  "https://raw.githubusercontent.com/De-Technocrats/Password-Generator/main/password.py")
     print(Fore.GREEN + "Updated\nRun tool again")
     exit()
 def loop():
